@@ -1,0 +1,30 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Simple GraphQl Server.",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmaraghav260/GraphQL-Server.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Server"
+  ],
+  "author": "Raghav Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharmaraghav260/GraphQL-Server/issues"
+  },
+  "homepage": "https://github.com/sharmaraghav260/GraphQL-Server#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "nodemon": "^1.11.0"
+  }
+}
